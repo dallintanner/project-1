@@ -1,0 +1,101 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#category {
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+  font-size: 70px;
+  margin: 0;
+  padding: 0;
+}
+
+#categoryName {
+  display: inline-block;
+  margin: 0px;
+  padding-left: 20px;
+  height: 100%;
+  font-size: 1em;
+}
+
+#buttonContainer {
+  display: inline-block;
+  height: 100%;
+}
+
+#categoryEditButton {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border: 0;
+  padding: 0;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+#toolContainer {
+  width: 100%;
+  border-top: 5px solid rgb(24, 24, 82);
+  border-bottom: 5px solid rgb(24, 24, 82);
+}
+
+#tool {
+  display: inline-block;
+  background-color: rgb(132, 166, 177);
+  border: 5px solid green;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+#toolName {
+  font-size: 25px;
+  text-align: center;
+
+}
+
+#addTool {
+  font-size: 20px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 0px;
+  border-radius: 15px;
+}
+
+#addCategory {
+  display: block;
+  margin-top: 50px;
+  margin-left: 20px;
+  height: 75px;
+  width: 240px;
+  font-size: 25px;
+  border-radius: 15px;
+}
