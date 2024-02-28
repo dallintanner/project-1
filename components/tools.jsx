@@ -1,7 +1,8 @@
 import { useState } from 'react';
+import DeleteTool from './deleteTool';
 
 export default function Tools({ tools, setTools }) {
-
+    console.log(setTools);
     const handleEdit = (tool) => {
         event.preventDefault();
         tool.edit = true;
@@ -9,9 +10,10 @@ export default function Tools({ tools, setTools }) {
     }
 
     const toolsDisplay = tools.map((tool) =>
+    
         <div key={tools.indexOf(tool)} id="tool">
             <span id="toolName">{tool.name}</span>
-            <button id='toolButton' onClick={handleEdit}>Delete</button>
+            <DeleteTool setTools = {setTools} tools = {tools} tool = {tool.name} index = {tools.indexOf(tool)}/>
         </div>);
 
     return (
